@@ -19,7 +19,7 @@ import com.gk.data.api.TodoService;
 public class Gk5ToDoBusinessImplMockitoInjectMocksTest {
 
 	@Mock
-	TodoService todoServiceMock; // internally calls mock() method for mocking an object
+	TodoService todoServiceMock; // Internally calls mock() method for mocking an object
 	
 	@InjectMocks
 	TodoBusinessImpl implUnderTest; // This injected Mock object to impl object but not using constructor. Injected
